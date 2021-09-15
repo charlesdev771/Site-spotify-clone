@@ -1,0 +1,47 @@
+html, body, #home { height: 100%; overflow-x: hidden;}
+body { font-family: 'Roboto', sans-serif; background: url(../imgs/capa.png), url(../imgs/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8); background-attachment: fixed;}
+
+    nav.navbar_trasparente { background: rgba(0, 0, 0, 0.6); padding: 7px 0px;}
+        .navbar-light .navbar-nav .nav-link { color: #fff; cursor: pointer;}
+        .li  a{font-size: 1.2em;}
+        .navbar-light .navbar-nav .nav-link:hover { color: #9bf0e1; }
+        .navbar-light .navbar-toggler { color: rgba (0.0.0.0.5); border-color: rgba(255, 255, 255, 0.1);}
+        .divisor { width: 1px; background: #fff; margin: 12px 15px;}
+
+    .capa { text-align: center;}
+        h1 { font-weight: 900; letter-spacing: -0.05; margin-bottom: 50px; color: #fff;}
+        .btn-custom { color: #fff; border-radius: 500px; text-transform: uppercase; transition: background 0.4s, color 0.4s; padding: 10px 15px;}
+        .btn-roxo { background: #7c25f8;}
+        .btn-roxo:hover { background: #6207e3; color: #fff;}
+
+        .btn-branco { border: 2px solid white;}
+        .btn-roxo:hover { background: #fff; color: #000;}
+
+        .carousel-control-next, .carousel-control-prev { width: 5%;}
+
+
+    .caixa{ padding-top: 20px; padding-bottom: 20px;}
+
+    #servicos { background: #fff; }
+        .albuns { padding: 10px 0px;}
+        h2 { font-size: 3em; font-weight: 700; letter-spacing: -0.04;}
+        h2 { font-size: 2em; font-weight: 700; letter-spacing: -0.04;}
+        #servicos h2, h3 { color: #7c25f8;}
+
+    #recursos { color: #fff;}
+        #recursos h2 { color: #fff}
+        #recursos h3 { color: #9bf0e1;}
+        .rotacionar { transform: rotate(30deg);}
+
+    footer { padding: 50px 0px 20px 0px; background: #000; position: relative;}
+        footer h4 { color: #919496; font-size: 0.8em; text-transform: uppercase;}
+        footer .navbar-nav a { color: #fff; font-size: 0.8em; }
+        footer .navbar-nav a:hover { color: #9bf0e1; font-size: 0.8em; text-decoration: none;}
+        footer ul { list-style: none;}
+        footer ul li{ list-style: none; float: right; margin: 0px 5px;}
+
+
+@media (min-width: 575px)
+{
+    h1 { font-size: 3em;}
+}
